@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Focus Timer",
+    "version": "1.0.0",
+    "description": "A productivity timer to help you stay focused and manage your time better.",
+    "permissions": ["notifications", "storage", "alarms","contextMenus"],
+    "background": {
+      "service_worker": "service_worker.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_title":"Focus Timer",
+      "default_icon": {
+        "16": "icons/time-16.png",
+        "48": "icons/time-48.png",
+        "128": "icons/time-128.png"
+      }
+    },
+    "icons": {
+        "16": "icons/time-16.png",
+        "48": "icons/time-48.png",
+        "128": "icons/time-128.png"
+    }
+  }
+  
